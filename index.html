@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BarberShop69 – Il tuo barbiere di fiducia. Tagli precisi, barba perfetta, stile autentico. Prenota il tuo appuntamento a Roma." />
+  <meta name="keywords" content="barbiere, barbershop, taglio capelli, barba, Roma, BarberShop69" />
+  <meta property="og:title" content="BarberShop69 – Arte del Taglio" />
+  <meta property="og:description" content="Non un taglio qualunque. Il tuo taglio. Prenota ora." />
+  <meta property="og:type" content="website" />
+  <title>BarberShop69 – Arte del Taglio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="images/logo.jpg" alt="BarberShop69 logo" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">Chi Siamo</a></li>
+        <li><a href="#services" class="nav-link">Servizi</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#location" class="nav-link">Dove Siamo</a></li>
+        <li><a href="#location" class="nav-cta-btn">Prenota</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/interior.jpg" alt="BarberShop69 interior" class="hero-img" />
+      <div class="hero-overlay"></div>
+      <div class="hero-grain"></div>
+    </div>
+
+    <div class="hero-content reveal-hero">
+      <div class="hero-badge">Est. — Roma</div>
+      <h1 class="hero-title">
+        <span class="hero-title-line">Barber</span>
+        <span class="hero-title-line gold">Shop69</span>
+      </h1>
+      <p class="hero-sub">Non un taglio qualunque.<br/>Il <em>tuo</em> taglio.</p>
+      <div class="hero-actions">
+        <a href="#location" class="btn btn-gold">Prenota Ora</a>
+        <a href="#services" class="btn btn-ghost">Vedi il Listino</a>
+        <a href="https://maps.app.goo.gl/BCnXGQ5yTVW3KwAEA?g_st=ic" target="_blank" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Indicazioni
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scorri</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-wrap">
+            <img src="images/cut2.jpg" alt="Taglio premium" />
+            <div class="about-img-accent"></div>
+          </div>
+          <div class="about-stat-box">
+            <span class="stat-num">69</span>
+            <span class="stat-label">Il numero<br/>dell'arte</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <div class="section-label">Chi Siamo</div>
+          <h2 class="section-title">Precisione.<br/>Stile.<br/>Rispetto.</h2>
+          <p class="about-body">
+            BarberShop69 non è solo un posto dove tagliarsi i capelli. È uno spazio dove ogni dettaglio viene curato con la stessa attenzione che meriti. Lame affilate, mani esperte, occhio clinico per la forma.
+          </p>
+          <p class="about-body">
+            Che tu voglia un fade impeccabile, una barba scultorea o un look completamente nuovo — qui trovi professionisti che ascoltano, capiscono e consegnano risultati che parlano da soli.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Taglio Maschile</span>
+            <span class="tag">Barba</span>
+            <span class="tag">Stile</span>
+            <span class="tag">Pulizia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ─── -->
+  <section class="services" id="services">
+    <div class="services-bg-deco"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Listino Prezzi</div>
+        <h2 class="section-title">I Nostri Servizi</h2>
+        <p class="section-sub">Qualità premium. Prezzi onesti. Zero compromessi.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal" data-delay="0">
+          <div class="service-icon">✂</div>
+          <div class="service-info">
+            <span class="service-name">Taglio</span>
+            <span class="service-desc">Fade, classico, moderno — la tua forma perfetta</span>
+          </div>
+          <div class="service-price"><span class="price-amount">10</span><span class="price-currency">€</span></div>
+        </div>
+
+        <div class="service-card reveal" data-delay="100">
+          <div class="service-icon">⚔</div>
+          <div class="service-info">
+            <span class="service-name">Barba</span>
+            <span class="service-desc">Definita, pulita, impeccabile al millimetro</span>
+          </div>
+          <div class="service-price"><span class="price-amount">7</span><span class="price-currency">€</span></div>
+        </div>
+
+        <div class="service-card reveal featured" data-delay="200">
+          <div class="featured-label">Più richiesto</div>
+          <div class="service-icon">✦</div>
+          <div class="service-info">
+            <span class="service-name">Taglio + Shampoo</span>
+            <span class="service-desc">Trattamento completo dall'inizio alla fine</span>
+          </div>
+          <div class="service-price"><span class="price-amount">12</span><span class="price-currency">€</span></div>
+        </div>
+
+        <div class="service-card reveal" data-delay="300">
+          <div class="service-icon">◈</div>
+          <div class="service-info">
+            <span class="service-name">Sopracciglia</span>
+            <span class="service-desc">Uomo / Donna — dettaglio che fa la differenza</span>
+          </div>
+          <div class="service-price"><span class="price-amount">5</span><span class="price-currency">€</span></div>
+        </div>
+
+        <div class="service-card reveal" data-delay="400">
+          <div class="service-icon">◎</div>
+          <div class="service-info">
+            <span class="service-name">Pulizia Viso</span>
+            <span class="service-desc">Pelle luminosa, aspetto fresco e curato</span>
+          </div>
+          <div class="service-price"><span class="price-amount">5</span><span class="price-currency">€</span></div>
+        </div>
+
+        <div class="service-card reveal" data-delay="500">
+          <div class="service-icon">✵</div>
+          <div class="service-info">
+            <span class="service-name">Colpi di Sole</span>
+            <span class="service-desc">Luce e carattere in ogni capello</span>
+          </div>
+          <div class="service-price"><span class="price-amount">10</span><span class="price-currency">€</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── GALLERY ─── -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Gallery</div>
+        <h2 class="section-title">Il Lavoro Parla</h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item tall">
+          <img src="images/interior.jpg" alt="BarberShop69 interno" loading="lazy" />
+          <div class="gallery-overlay"><span>L'Ambiente</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/cut1.jpg" alt="Taglio curly fade" loading="lazy" />
+          <div class="gallery-overlay"><span>Curly Fade</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/cut2.jpg" alt="Slick back taper" loading="lazy" />
+          <div class="gallery-overlay"><span>Slick Back</span></div>
+        </div>
+        <div class="gallery-item wide">
+          <img src="images/cut3.jpg" alt="Pompadour premium" loading="lazy" />
+          <div class="gallery-overlay"><span>Pompadour</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── HOURS + LOCATION ─── -->
+  <section class="location" id="location">
+    <div class="container">
+      <div class="location-grid">
+        <div class="location-info reveal">
+          <div class="section-label">Vieni a Trovarci</div>
+          <h2 class="section-title">Orari &amp;<br/>Dove Siamo</h2>
+
+          <div class="hours-block">
+            <div class="hours-row">
+              <span class="day">Lunedì – Sabato</span>
+              <span class="hours">09:00 – 20:00</span>
+            </div>
+            <div class="hours-row closed">
+              <span class="day">Domenica</span>
+              <span class="hours">Chiuso</span>
+            </div>
+          </div>
+
+          <div class="location-actions">
+            <a href="https://maps.app.goo.gl/BCnXGQ5yTVW3KwAEA?g_st=ic" target="_blank" class="btn btn-gold">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Apri su Google Maps
+            </a>
+            <a href="tel:+39" class="btn btn-ghost">Chiama per Prenotare</a>
+          </div>
+        </div>
+
+        <div class="map-container reveal">
+          <div class="map-frame">
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD-placeholder&q=BarberShop69+Roma"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <!-- Fallback se l'iframe non carica -->
+            <a href="https://maps.app.goo.gl/BCnXGQ5yTVW3KwAEA?g_st=ic" target="_blank" class="map-fallback">
+              <div class="map-fallback-inner">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#c9a227" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <p>Apri in Google Maps</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FINAL CTA ─── -->
+  <section class="cta-final">
+    <div class="cta-bg">
+      <img src="images/cut3.jpg" alt="" />
+      <div class="cta-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <div class="section-label">Pronto?</div>
+        <h2 class="cta-title">Il prossimo<br/><em>capolavoro</em><br/>sei tu.</h2>
+        <p class="cta-sub">Passa in negozio o contattaci per fissare il tuo appuntamento.<br/>Dal lunedì al sabato, 9:00 – 20:00.</p>
+        <div class="cta-actions">
+          <a href="https://maps.app.goo.gl/BCnXGQ5yTVW3KwAEA?g_st=ic" target="_blank" class="btn btn-gold btn-lg">Vieni a Trovarci</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.jpg" alt="BarberShop69" class="footer-logo" />
+          <p class="footer-tagline">Arte del taglio.<br/>Ogni giorno.</p>
+        </div>
+
+        <div class="footer-col">
+          <span class="footer-heading">Orari</span>
+          <p>Lunedì – Sabato<br/>09:00 – 20:00</p>
+          <p class="closed-text">Domenica: Chiuso</p>
+        </div>
+
+        <div class="footer-col">
+          <span class="footer-heading">Servizi</span>
+          <ul class="footer-links">
+            <li>Taglio — 10€</li>
+            <li>Barba — 7€</li>
+            <li>Taglio + Shampoo — 12€</li>
+            <li>Sopracciglia — 5€</li>
+            <li>Pulizia Viso — 5€</li>
+            <li>Colpi di Sole — 10€</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <span class="footer-heading">Trovaci</span>
+          <a href="https://maps.app.goo.gl/BCnXGQ5yTVW3KwAEA?g_st=ic" target="_blank" class="footer-map-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Google Maps
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 BarberShop69. Tutti i diritti riservati.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
